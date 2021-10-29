@@ -1,0 +1,49 @@
+Comandos úteis do Git e Github
+----------------------------------------------------
+
+1-Configura o Nome de Usuário
+git config --global user.name SeuNick
+
+(Lembrando que "--global" configura para todos os repositório na máquina)
+
+
+2-Configura o E-mail
+git config --global user.email “seuemail@gmail.com”
+
+(Interessante usar o mesmo da sua conta no Github)
+
+
+3-Inicializa um repositório local
+git init
+
+
+4-Checa o status do repositório
+git status
+
+(Comando usado constantemente para verificar a situação do arquivo no repositório)
+
+
+5-Adiciona um arquivo ou diretório à staged area
+git add
+
+(Aqui os arquivos passam a ser rastreados)
+
+
+6-Salva as modificações como um ponto na linha do tempo do repositório
+Git commit -m "Mensagem descrevendo as alterações feitas"
+
+
+7-Remove arquivos ou diretórios
+git rm -r nome-do-arquivo
+
+
+8-Adiciona um repositório remoto ao repositório local
+git remote add origin https://github.com/usuario/repo-remoto.git
+
+
+9-Empurra os commits para o repositório remoto
+git push -u origin <nome-da-branch>
+
+
+10-Clona um repositório para a sua máquina
+git clone https://github.com/usuario/repo-remoto.git
